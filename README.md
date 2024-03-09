@@ -89,7 +89,7 @@ This streamlined workflow in Google Cloud Composer ensures a consistent, automat
 
 2. **Run PySpark Job on Dataproc Cluster and Save Visualization to GCS**: Following the data upload to GCS, the workflow progresses to leverage PySpark and Dataproc for advanced data processing and visualization. Initially, a Dataproc cluster is dynamically created using the `google-cloud-dataproc` library, configuring parameters like instance count and types. Subsequently, a PySpark job is submitted to the cluster, executing data processing tasks. The resulting visualizations are saved back to GCS, ensuring the persistence of valuable insights. Finally, the Dataproc cluster is automatically deleted, optimizing resource usage and enhancing cost efficiency in the cloud environment. This comprehensive workflow seamlessly integrates MongoDB, PySpark, and Google Cloud Storage for efficient data handling and visualization in a distributed computing setting.
 
-Use PySpark's powerful data processing capabilities combined with MongoDB's storage to craft dynamic dashboards and visualizations.
+Use PySpark's powerful data processing capabilities combined with MongoDB's storage to craft dynamic dashboards and visualizations. Employing PySpark for robust data processing and Plotly for dynamic visualization, we successfully crafted comprehensive radar charts to encapsulate intricate audio features of individual Spotify users' listened tracks. This strategic integration enabled a sophisticated exploration of music preferences, offering insights into dimensions such as danceability, energy, and valence.
 
 <p align="center">
   <kbd><img src="images/viz.png" width=600></img></kbd>
